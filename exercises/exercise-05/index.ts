@@ -85,7 +85,7 @@ export function logPerson(person: Person) {
   console.log(` - ${person.name}, ${person.age}, ${additionalInformation}`);
 }
 
-type PartialUser = Pick<Partial<User>, 'name' | 'age' | 'occupation'>;
+export type PartialUser = Pick<Partial<User>, 'name' | 'age' | 'occupation'>;
 
 export function filterUsers(persons: Person[], criteria: PartialUser): User[] {
   return persons.filter(isUser).filter((user) => {
