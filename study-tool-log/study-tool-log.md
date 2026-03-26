@@ -69,12 +69,23 @@ Claude Code Skill (`.claude/skills/ts-log/SKILL.md`) + 슬래시 커맨드 (`.cl
 
 출력 형식:
 
-```markdown
+````markdown
 ## 학습 요약 (MM/DD)
+
+### 대화 요약
+
+-
 
 ### 막혔던 것
 
 -
+
+### 막혔던 코드
+
+```ts
+// 코드가 없는 경우 이 섹션은 생략합니다
+```
+````
 
 ### 질문했던 것
 
@@ -83,9 +94,9 @@ Claude Code Skill (`.claude/skills/ts-log/SKILL.md`) + 슬래시 커맨드 (`.cl
 ### 다음에 공부하면 좋을 것
 
 -
-```
 
 ### **어떻게 도움이 되었는가**
 
 - `/ts-log` 한 번으로 오늘 대화 내용을 노션에 바로 붙여넣을 수 있는 형태로 정리
 - 따로 기록하는 수고 없이 학습 흔적을 남길 수 있음
+- 실제 사용 예시: [노션 학습 요약 페이지](https://respected-island-cf3.notion.site/by-Claude-Skill-32db1e15f1e980fd847af1d80ff07f38?source=copy_link)
