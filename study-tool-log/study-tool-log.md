@@ -85,7 +85,6 @@ Claude Code Skill (`.claude/skills/ts-log/SKILL.md`) + 슬래시 커맨드 (`.cl
 ```ts
 // 코드가 없는 경우 이 섹션은 생략합니다
 ```
-````
 
 ### 질문했던 것
 
@@ -94,6 +93,7 @@ Claude Code Skill (`.claude/skills/ts-log/SKILL.md`) + 슬래시 커맨드 (`.cl
 ### 다음에 공부하면 좋을 것
 
 -
+````
 
 ### **어떻게 도움이 되었는가**
 
